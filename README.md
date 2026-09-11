@@ -19,7 +19,7 @@ Without a structured analysis, it becomes challenging to identify which vendors 
 
 ![Project Workflow](project-workflow.png)
 
-**Data Collection → Data Cleaning → Exploratory Analysis → Data Visualization → Business Insights**
+**Data Collection → Data Cleaning → Data Analysis & Exploratory Analysis → Data Visualization → Business Insights**
 
 ## Approach
 
@@ -40,28 +40,40 @@ Collected and consolidated the available data related to:
 Prepared the data for analysis by:
 
 - Checking data quality and consistency
-- Handling missing and duplicate records where required
+- Handling missing values
+- Removing duplicate records where required
 - Correcting data types
 - Standardizing inconsistent formats
 - Removing unnecessary spaces and inconsistencies
 
-### 3. Exploratory Data Analysis
+### 3. Data Analysis & Exploratory Analysis
 
-Explored the cleaned data to understand vendor and product performance and identify meaningful patterns across sales, purchasing, costs, pricing, inventory, and profitability.
+Explored the cleaned data to understand vendor and product performance and identify meaningful patterns across:
+
+- Sales
+- Purchasing
+- Costs
+- Pricing
+- Inventory
+- Profitability
+
+Key business metrics were calculated and analyzed to compare vendor and product performance.
 
 ### 4. Data Visualization
 
-Converted the analyzed data into an interactive dashboard that allows vendor and product performance to be compared using relevant business metrics, filters, and visualizations.
+Built an interactive dashboard to visualize vendor and product performance using relevant KPIs, filters, and slicers.
+
+The dashboard enables users to compare vendors and products and identify performance differences efficiently.
 
 ### 5. Business Insights
 
-Interpreted the analysis to identify important performance differences between vendors and products and highlight areas that may require further business attention.
+Interpreted the analysis to identify important performance differences between vendors and products and highlight areas requiring business attention.
 
 ## Solution
 
-The project provides a consolidated view of vendor and product performance instead of requiring the business to evaluate multiple datasets separately.
+The analysis provides a consolidated view of vendor and product performance, enabling the business to evaluate vendor effectiveness and identify areas for improvement.
 
-The analysis enables the business to:
+The solution enables the business to:
 
 - Compare vendors based on **sales contribution, purchase value, gross profit, profit margin, and quantity sold**.
 - Identify **high-performing vendors** that contribute strongly to sales and profitability.
@@ -72,21 +84,8 @@ The analysis enables the business to:
 - Compare vendor performance using consistent metrics rather than reviewing vendors individually from separate datasets.
 - Use the interactive dashboard to filter and compare vendors and products and quickly identify performance gaps.
 
-The final solution transforms vendor, sales, purchasing, pricing, inventory, and invoice data into a **single performance view that helps support better vendor evaluation, purchasing decisions, cost management, and business planning**.
+The final solution transforms vendor, sales, purchasing, pricing, inventory, and invoice data into a **single performance view that supports better vendor evaluation, purchasing decisions, cost management, and business planning**.
 
-## Tools Used
+## Dashboard
 
-- **SQL** — Data cleaning and preparation
-- **Excel** — Exploratory Data Analysis
-- **Power BI** — Interactive dashboard and visualization
-
-## Key Analysis Areas
-
-- Vendor Performance
-- Product Performance
-- Sales Performance
-- Purchasing Performance
-- Cost & Pricing
-- Inventory
-- Profitability
-```
+![Vendor Performance Analysis Dashboard](vendor-performance-dashboard.png)
