@@ -19,8 +19,6 @@ Without a structured analysis, it becomes challenging to identify which vendors 
 
 ![Vendor Performance Analysis Dashboard](project-workflow.png)
 
-**Data Collection → Data Cleaning → Data Analysis & Exploratory Analysis → Data Visualization → Business Insights**
-
 ## Approach
 
 ### 1. Data Collection
