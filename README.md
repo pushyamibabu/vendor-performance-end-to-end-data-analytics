@@ -15,9 +15,9 @@ Without a structured analysis, it becomes challenging to identify which vendors 
 - Identify performance gaps and areas that require attention.
 - Provide actionable insights to support vendor management and business decisions.
 
-## Project Workflow
+## Dashboard
 
-![Project Workflow](project-workflow.png)
+![Vendor Performance Analysis Dashboard](Vendor_Performance_Analysis_Dashboard%20SC.png)
 
 **Data Collection → Data Cleaning → Data Analysis & Exploratory Analysis → Data Visualization → Business Insights**
 
