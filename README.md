@@ -88,4 +88,4 @@ The final solution transforms vendor, sales, purchasing, pricing, inventory, and
 
 ## Dashboard
 
-![Vendor Performance Analysis Dashboard](Vendor_Performance_Analysis_Dashboard SC.png)
+![Vendor Performance Analysis Dashboard](Vendor_Performance_Analysis_Dashboard.png)
